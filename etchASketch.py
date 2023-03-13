@@ -9,7 +9,6 @@ def w_move_forward():
 
 
 def s_move_backward():
-
     tim.backward(10)
 
 
@@ -22,8 +21,10 @@ def d_clockwise():
     tim.right(10)
     tim.forward(10)
 
+
 def c_clear():
     tim.reset()
+
 
 screen.listen()
 
