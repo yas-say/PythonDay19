@@ -27,13 +27,15 @@ flag = True
 while flag:
     for _ in allTurtle:
         _.forward(randint(0,10))
-        if _.xcor() >= 250:
+        if _.xcor() >= 230:
             flag = False
             winner = _.pencolor()
             break
 
-
-print(f"Winner is {winner}")
+if user_bet == winner:
+    print(f"Awesome you guessed the winner right: {winner}")
+else:
+    print(f"Bad luck, winner is {winner}")
 
 
 screen.exitonclick()
