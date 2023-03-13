@@ -14,12 +14,12 @@ def s_move_backward():
 
 
 def a_counter_clockwise():
-    tim.left(5)
+    tim.left(10)
     tim.forward(10)
 
 
 def d_clockwise():
-    tim.right(5)
+    tim.right(10)
     tim.forward(10)
 
 def c_clear():
